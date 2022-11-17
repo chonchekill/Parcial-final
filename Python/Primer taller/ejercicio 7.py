@@ -1,0 +1,5 @@
+numero_correctas=int(input("Ingrese el numero de respuestas correctas= "))
+numero_incorrectas=int(input("Ingrese el numero de respuestas incorrectas= "))
+numero_blanco=int(input("Ingrese el numero de respuestas en blanco= "))
+puntaje_final=(numero_correctas*4) + (numero_incorrectas*-1) + (numero_blanco*0)
+print("puntaje final= ")
